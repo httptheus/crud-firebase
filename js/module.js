@@ -32,7 +32,7 @@ document.getElementById('btnCadastrar').addEventListener('click', function(){
     createUserWithEmailAndPassword(auth, inputEmailCadastro, inputSenhaCadastro)
     .then((userCredential) => {
     const user = userCredential.user;
-        imgIcon.src = "jsimg/iconAlertaSucesso.png"
+        imgIcon.src = "../img/iconAlertaSucesso.png"
         spanNotificacao.innerHTML = "Cadastro realizado com sucesso."
 
         divNotificacao.style.backgroundColor = 'lime'
@@ -46,7 +46,7 @@ document.getElementById('btnCadastrar').addEventListener('click', function(){
     .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-        imgIcon.src = "jsimg/iconAlertaErro.png"
+        imgIcon.src = "../img/iconAlertaErro.png"
         spanNotificacao.innerHTML = "Erro ao cadastrar. Verifique os campos e tente novamente."
 
         divNotificacao.style.backgroundColor = 'tomato'
