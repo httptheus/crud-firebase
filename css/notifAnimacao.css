@@ -1,5 +1,6 @@
 #divNotificacao{
     animation: surgirNotificacao ease-in-out normal 0.8s;
+    animation-direction: normal;
 }
 
 @keyframes surgirNotificacao{

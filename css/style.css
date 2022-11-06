@@ -69,7 +69,7 @@ button:active{
 /**/
 
 #divNotificacao{
-    display: flex;
+    display: none;
     position: absolute;
     top: 10px;
     flex-direction: row;
