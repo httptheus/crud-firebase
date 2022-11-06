@@ -1,0 +1,13 @@
+#divNotificacao{
+    animation: surgirNotificacao ease-in-out normal 0.8s;
+}
+
+@keyframes surgirNotificacao{
+    from{
+        top: -200px;
+    }
+
+    to{
+        top: 10px;
+    }
+}
